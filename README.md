@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: Block Autosquash Commits
-        uses: xt0rted/block-autosquash-commits-action@master
+        uses: Lundalogik/block-autosquash-commits-action@master
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```
